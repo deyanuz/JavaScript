@@ -24,7 +24,6 @@ This section covers **JavaScript Arrays**, explaining how to create, manipulate,
         - 2.3.2 [Modifying Strings](#modifying-strings)
     - 2.4. [Advanced String Manipulation](#advanced-string-manipulation)
         - 2.4.1 [Template Literals](#template-literals)
-        - 2.4.2 [Regular Expressions](#regular-expressions)
     - 2.5. [Resources](#resources)
 
 ---
@@ -202,15 +201,6 @@ const greeting = `Hello, ${name}! Welcome to JavaScript.`;
 console.log(greeting); // Output: Hello, Alice! Welcome to JavaScript.
 ```
 
-### Regular Expressions
-
-Regular expressions (regex) are used to match patterns within strings, enabling complex searches, validations, and replacements.
-
-```javascript
-const email = "test@example.com";
-const isValidEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email);
-console.log(isValidEmail); // Output: true
-```
 
 
 ## Resources
