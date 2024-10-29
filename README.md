@@ -15,7 +15,6 @@ This section covers **JavaScript Arrays**, explaining how to create, manipulate,
         - 1.4.1 [Transforming Arrays](#transforming-arrays)
         - 1.4.2 [Filtering Arrays](#filtering-arrays)
         - 1.4.3 [Reducing Arrays](#reducing-arrays)
-    - 1.5 [Resources](#resources)
 2. [Strings](#strings)
     - 2.1 [Creating Strings](#creating-strings)
     - 2.2 [Basic String Operations](#basic-string-operations)
@@ -25,7 +24,7 @@ This section covers **JavaScript Arrays**, explaining how to create, manipulate,
     - 2.4 [Advanced String Manipulation](#advanced-string-manipulation)
         - 2.4.1 [Template Literals](#template-literals)
     - 2.5 [String Object vs String Primitive](#string-literal-vs-primitives)
-    - 2.6 [Resources](#resources)
+3. [Resources](#resources)
 
 ---
 
@@ -120,12 +119,7 @@ const evens = numbers.filter(num => num % 2 === 0); // [2, 4]
 const numbers = [1, 2, 3, 4];
 const sum = numbers.reduce((total, num) => total + num, 0); // 10
 ```
-
-## Resources
-
-- [JavaScript Array Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-- [JavaScript Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Instance_methods)
-
+<br>
 
 ---
 <br>
@@ -208,6 +202,8 @@ console.log(greeting); // Output: Hello, Alice! Welcome to JavaScript.
 
 ## Resources
 
+- [JavaScript Array Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [JavaScript Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Instance_methods)
 - [JavaScript String Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
 ---
