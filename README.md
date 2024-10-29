@@ -34,11 +34,11 @@ JavaScript arrays are used to store multiple values in a single variable, allowi
 
 ## Creating Arrays
 
-Arrays in JavaScript can be created using array literals or the `Array` constructor.
+Arrays in JavaScript can be created using array literals or the `Array` constructor. Specifically, arrays can be intialized with values at the time of declaration or the values can be passed through the `Array` object constructor to create a new array.
 
 ```javascript
-const arrayLiteral = [1, 2, 3];
-const arrayConstructor = new Array(1, 2, 3);
+const arrayLiteral = [1, 2, 3]; // using array literal
+const arrayConstructor = new Array(1, 2, 3); // using array object 
 ```
 
 ## Accessing and Modifying Elements
