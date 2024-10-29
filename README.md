@@ -127,6 +127,8 @@ const sum = numbers.reduce((total, num) => total + num, 0); // 10
 - [JavaScript Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Instance_methods)
 
 
+
+
 ## Strings
 
 JavaScript strings are used to store and manipulate text. They can contain letters, numbers, symbols, and even spaces. Strings are immutable, meaning their characters cannot be changed after creation, but you can create modified copies.
