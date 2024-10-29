@@ -15,8 +15,7 @@ This section covers **JavaScript Arrays**, explaining how to create, manipulate,
     - 5.1 [Transforming Arrays](#transforming-arrays)
     - 5.2 [Filtering Arrays](#filtering-arrays)
     - 5.3 [Reducing Arrays](#reducing-arrays)
-6. [Examples](#examples)
-7. [Resources](#resources)
+6. [Resources](#resources)
 
 ---
 
@@ -111,10 +110,6 @@ const evens = numbers.filter(num => num % 2 === 0); // [2, 4]
 const numbers = [1, 2, 3, 4];
 const sum = numbers.reduce((total, num) => total + num, 0); // 10
 ```
-
-## Examples
-
-Explore the `examples` folder for additional code samples demonstrating how to use arrays in practical scenarios.
 
 ## Resources
 
