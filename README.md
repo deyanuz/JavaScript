@@ -16,6 +16,16 @@ This section covers **JavaScript Arrays**, explaining how to create, manipulate,
         - 1.4.2 [Filtering Arrays](#filtering-arrays)
         - 1.4.3 [Reducing Arrays](#reducing-arrays)
     - 1.5 [Resources](#resources)
+2. [Strings](#strings)
+    - 2.1 [Creating Strings](#creating-strings)
+    - 2.2 [Basic String Operations](#basic-string-operations)
+    - 2.3 [String Methods](#string-methods)
+        - 2.3.1 [Finding and Extracting Substrings](#finding-and-extracting-substrings)
+        - 2.3.2 [Modifying Strings](#modifying-strings)
+    - 2.4. [Advanced String Manipulation](#advanced-string-manipulation)
+        - 2.4.1 [Template Literals](#template-literals)
+        - 2.4.2 [Regular Expressions](#regular-expressions)
+    - 2.5. [Resources](#resources)
 
 ---
 
@@ -117,7 +127,7 @@ const sum = numbers.reduce((total, num) => total + num, 0); // 10
 - [JavaScript Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Instance_methods)
 
 
-## Introduction
+## Strings
 
 JavaScript strings are used to store and manipulate text. They can contain letters, numbers, symbols, and even spaces. Strings are immutable, meaning their characters cannot be changed after creation, but you can create modified copies.
 
