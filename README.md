@@ -128,6 +128,8 @@ const sum = numbers.reduce((total, num) => total + num, 0); // 10
 
 
 ---
+<br>
+
 
 ## Strings
 
