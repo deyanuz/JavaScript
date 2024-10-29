@@ -23,7 +23,7 @@ This section covers **JavaScript Arrays**, explaining how to create, manipulate,
         - 2.3.2 [Modifying Strings](#modifying-strings)
     - 2.4 [Advanced String Manipulation](#advanced-string-manipulation)
         - 2.4.1 [Template Literals](#template-literals)
-    - 2.5 [String Object vs String Primitive](#string-literal-vs-primitives)
+    - 2.5 [String Object vs String Primitive](#string-object-vs-string-primitive)
 3. [Resources](#resources)
 
 ---
