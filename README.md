@@ -1,12 +1,10 @@
-# JavaScript
-
 # JavaScript Arrays 📚
 
 This section covers **JavaScript Arrays**, explaining how to create, manipulate, and utilize arrays in various scenarios. Arrays are a fundamental part of JavaScript, used to store collections of items in a single variable and manage ordered lists of data efficiently.
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
+1. [Arrays](#arrays)
 2. [Creating Arrays](#creating-arrays)
 3. [Accessing and Modifying Elements](#accessing-and-modifying-elements)
 4. [Array Methods](#array-methods)
@@ -22,7 +20,7 @@ This section covers **JavaScript Arrays**, explaining how to create, manipulate,
 
 ---
 
-## Introduction
+## Arrays
 
 JavaScript arrays are used to store multiple values in a single variable, allowing us to manage ordered lists of data. Arrays can contain any data type, including numbers, strings, objects, or even other arrays.
 
