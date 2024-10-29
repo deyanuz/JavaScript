@@ -22,9 +22,10 @@ This section covers **JavaScript Arrays**, explaining how to create, manipulate,
     - 2.3 [String Methods](#string-methods)
         - 2.3.1 [Finding and Extracting Substrings](#finding-and-extracting-substrings)
         - 2.3.2 [Modifying Strings](#modifying-strings)
-    - 2.4. [Advanced String Manipulation](#advanced-string-manipulation)
+    - 2.4 [Advanced String Manipulation](#advanced-string-manipulation)
         - 2.4.1 [Template Literals](#template-literals)
-    - 2.5. [Resources](#resources)
+    - 2.5 [String Object vs String Primitive](#string-literal-vs-primitives)
+    - 2.6 [Resources](#resources)
 
 ---
 
@@ -202,6 +203,7 @@ const greeting = `Hello, ${name}! Welcome to JavaScript.`;
 console.log(greeting); // Output: Hello, Alice! Welcome to JavaScript.
 ```
 
+##String Object vs String Primitive
 
 
 ## Resources
