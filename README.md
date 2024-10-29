@@ -215,6 +215,3 @@ console.log(isValidEmail); // Output: true
 - [JavaScript Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 
 ---
-
-
----
