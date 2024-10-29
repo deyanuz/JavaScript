@@ -197,7 +197,7 @@ const greeting = `Hello, ${name}! Welcome to JavaScript.`;
 console.log(greeting); // Output: Hello, Alice! Welcome to JavaScript.
 ```
 
-##String Object vs String Primitive
+## String Object vs String Primitive
 
 
 ## Resources
