@@ -5,17 +5,17 @@ This section covers **JavaScript Arrays**, explaining how to create, manipulate,
 ## Table of Contents
 
 1. [Arrays](#arrays)
-2. [Creating Arrays](#creating-arrays)
-3. [Accessing and Modifying Elements](#accessing-and-modifying-elements)
-4. [Basic Array Methods](#basic-array-methods)
-    - 4.1 [Adding and Removing Elements](#adding-and-removing-elements)
-    - 4.2 [Searching for Elements](#searching-for-elements)
-    - 4.3 [Iterating Over Arrays](#iterating-over-arrays)
-5. [Advanced Array Methods](#advanced-array-methods)
-    - 5.1 [Transforming Arrays](#transforming-arrays)
-    - 5.2 [Filtering Arrays](#filtering-arrays)
-    - 5.3 [Reducing Arrays](#reducing-arrays)
-6. [Resources](#resources)
+    - 1.1 [Creating Arrays](#creating-arrays)
+    - 1.2 [Accessing and Modifying Elements](#accessing-and-modifying-elements)
+    - 1.3 [Basic Array Methods](#basic-array-methods)
+        - 1.3.1 [Adding and Removing Elements](#adding-and-removing-elements)
+        - 1.3.2 [Searching for Elements](#searching-for-elements)
+        - 1.3.3 [Iterating Over Arrays](#iterating-over-arrays)
+    - 1.4 [Advanced Array Methods](#advanced-array-methods)
+        - 1.4.1 [Transforming Arrays](#transforming-arrays)
+        - 1.4.2 [Filtering Arrays](#filtering-arrays)
+        - 1.4.3 [Reducing Arrays](#reducing-arrays)
+    - 1.5 [Resources](#resources)
 
 ---
 
