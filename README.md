@@ -7,7 +7,7 @@ This section covers **JavaScript Arrays**, explaining how to create, manipulate,
 1. [Arrays](#arrays)
 2. [Creating Arrays](#creating-arrays)
 3. [Accessing and Modifying Elements](#accessing-and-modifying-elements)
-4. [Array Methods](#array-methods)
+4. [Basic Array Methods](#basic-array-methods)
     - 4.1 [Adding and Removing Elements](#adding-and-removing-elements)
     - 4.2 [Searching for Elements](#searching-for-elements)
     - 4.3 [Iterating Over Arrays](#iterating-over-arrays)
@@ -44,7 +44,7 @@ console.log(fruits[0]); // Output: apple
 fruits[1] = "orange"; // ["apple", "orange", "cherry"]
 ```
 
-## Array Methods
+## Basic Array Methods
 
 JavaScript provides many built-in methods for working with arrays:
 
