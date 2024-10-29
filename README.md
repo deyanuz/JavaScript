@@ -172,6 +172,7 @@ JavaScript provides a variety of methods for working with strings:
 
 ```javascript
 const text = "Hello, JavaScript!";
+console.log(text.toUpperCase()); // Output: HELLO, JAVASCRIPT!
 console.log(text.indexOf("JavaScript")); // Output: 7
 console.log(text.slice(0, 5)); // Output: Hello
 console.log(text.substring(7, 17)); // Output: JavaScript
