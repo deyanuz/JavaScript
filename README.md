@@ -10,7 +10,8 @@ This section covers **JavaScript Arrays**, explaining how to create, manipulate,
     - 1.3 [Basic Array Methods](#basic-array-methods)
         - 1.3.1 [Adding and Removing Elements](#adding-and-removing-elements)
         - 1.3.2 [Searching for Elements](#searching-for-elements)
-        - 1.3.3 [Iterating Over Arrays](#iterating-over-arrays)
+        - 1.3.3 [Modifying the Array](#modifying-the-array)
+        - 1.3.4 [Iterating Over Arrays](#iterating-over-arrays)
     - 1.4 [Advanced Array Methods](#advanced-array-methods)
         - 1.4.1 [Transforming Arrays](#transforming-arrays)
         - 1.4.2 [Filtering Arrays](#filtering-arrays)
@@ -69,6 +70,9 @@ JavaScript provides many built-in methods for working with arrays:
 const fruits = ["apple"];
 fruits.push("banana"); // ["apple", "banana"]
 fruits.pop(); // ["apple"]
+fruits.push("banana"); // ["apple", "banana"]
+fruits.shift(); // ['banana']
+fruits.unshift("apple"); // ["apple", "banana"]
 ```
 
 ### Searching for Elements
@@ -81,6 +85,18 @@ const fruits = ["apple", "banana", "cherry"];
 console.log(fruits.indexOf("banana")); // Output: 1
 console.log(fruits.includes("orange")); // Output: false
 ```
+
+### Modidying the Array
+
+- **slice**: slice: Returns a shallow copy of a portion of an array into a new array selected from `start` to `end` (`end` not included). Here `start` and `end` are the indices of elements. 
+  
+  ```javascript
+  const fruits = ['Apple', 'Banana', 'Cherry', 'Date'];
+  const citrus = fruits.slice(1, 3);
+  console.log(citrus); // ['Banana', 'Cherry']
+  ```
+In the example snippet, indices 1 through 3 are passed to the slice method. However, the returned array contains only the elements at indices 1 and 2; it does not include the element at index end (3 in this case). Additionally, while the elements of the returned array reference the same objects in memory as the original array, this is only relevant for arrays containing objects. If the original array contains primitive values (like numbers or strings), the values themselves are copied. Therefore, modifying the elements in the returned array will not affect the original array if they are primitives. This behavior is why slice is often described as creating a shallow copy.
+  
 
 ### Iterating Over Arrays
 
