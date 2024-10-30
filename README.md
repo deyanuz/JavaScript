@@ -88,7 +88,7 @@ console.log(fruits.includes("orange")); // Output: false
 
 ### Modidying the Array
 
-- **slice**: slice: Returns a shallow copy of a portion of an array into a new array selected from `start` to `end` (`end` not included). Here `start` and `end` are the indices of elements. 
+- **slice**: Returns a shallow copy of a portion of an array into a new array selected from `start` to `end` (`end` not included). Here `start` and `end` are the indices of elements. 
   
   ```javascript
   const fruits = ['Apple', 'Banana', 'Cherry', 'Date'];
@@ -96,7 +96,21 @@ console.log(fruits.includes("orange")); // Output: false
   console.log(citrus); // ['Banana', 'Cherry']
   ```
     In the example snippet, indices 1 through 3 are passed to the slice method. However, the returned array contains only the elements at indices 1 and 2; it does not include the element at index end (3 in this     case). Additionally, while the elements of the returned array reference the same objects in memory as the original array, this is only relevant for arrays containing objects. If the original array contains       primitive values (like numbers or strings), the values themselves are copied. Therefore, modifying the elements in the returned array will not affect the original array if they are primitives. This behavior     is why slice is often described as creating a shallow copy.
-  
+
+- **splice**: Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
+
+   ```javascript
+   // syntax: splice(start, deleteCount, item1, item2, /* …, */ itemN)
+  const fruits = ['Apple', 'Banana', 'Cherry', 'Date']; 
+  fruits.splice(1, 0, 'Orange'); // ['Apple', 'Orange', 'Banana', 'Cherry', 'Date']
+  fruits.splice(4, 1, 'Pine-apple'); // ['Apple', 'Orange', 'Banana', 'Cherry', 'Pine-apple']
+  fruits.splice(2, 2, 'Strawberry'); // ['Apple', 'Orange', 'Strawberry', 'Pine-apple']
+   
+  // remove 2 elements starting from index 1
+  fruits.splice(1, 2);  // ['Apple', 'Pine-apple']
+  // remove all elements starting from index 1
+  fruits.splice(1);  // ['Apple']
+  ```
 
 ### Iterating Over Arrays
 
