@@ -50,7 +50,8 @@ const fruits = ["apple", "banana", "cherry"];
 console.log(fruits[0]); // Output: apple
 
 // Modifying an element
-fruits[1] = "orange"; // ["apple", "orange", "cherry"]
+fruits[1] = "orange";
+console.log(fruits); // ["apple", "orange", "cherry"]
 ```
 
 ## Basic Array Methods
