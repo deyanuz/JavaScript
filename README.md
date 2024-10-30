@@ -111,6 +111,8 @@ console.log(fruits.includes("orange")); // Output: false
   // remove all elements starting from index 1
   fruits.splice(1);  // ['Apple']
   ```
+- **sort**
+- **reverse**
 
 ### Iterating Over Arrays
 
