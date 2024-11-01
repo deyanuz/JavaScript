@@ -111,6 +111,7 @@ console.log(fruits.includes("orange")); // Output: false
   // remove all elements starting from index 1
   fruits.splice(1);  // ['Apple']
   ```
+  `splice` first performs deletion, that is, it first deletes `deleteCount` number of items from index `start` inclusive. After that, the method inserts the items from `start` index onwards.
 - **sort**
 - **reverse**
 
