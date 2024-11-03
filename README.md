@@ -317,12 +317,10 @@ console.log(typeof objectString); // Output: object
 
 `typeof primitive` returns "string" because it's a basic data type. `objectString` is an object with additional features, but it's less commonly used.
 
-
-## JavaScript Date and Math Objects
-
-JavaScript provides powerful built-in objects for handling dates and performing mathematical operations: the `Date` object and the `Math` object.
+<br>
 
 ---
+<br>
 
 ## Date Object
 
