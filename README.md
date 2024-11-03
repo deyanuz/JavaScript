@@ -178,9 +178,9 @@ console.log(fruits.includes("orange")); // Output: false
     ```
     ---
 
-  - **fill**:The `fill()` method of changes all elements within a range of indices in an array to a static value. It returns the modified array.
+- **fill**:The `fill()` method of changes all elements within a range of indices in an array to a static value. It returns the modified array.
 
-    ```javascript
+  ```javascript
      const array1 = [1, 2, 3, 4];
     
     // Fill with 0 from position 2 until position 4
