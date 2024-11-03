@@ -96,6 +96,7 @@ console.log(fruits.includes("orange")); // Output: false
   console.log(citrus); // ['Banana', 'Cherry']
   ```
     In the example snippet, indices 1 through 3 are passed to the slice method. However, the returned array contains only the elements at indices 1 and 2; it does not include the element at index end (3 in this     case). Additionally, while the elements of the returned array reference the same objects in memory as the original array, this is only relevant for arrays containing objects. If the original array contains       primitive values (like numbers or strings), the values themselves are copied. Therefore, modifying the elements in the returned array will not affect the original array if they are primitives. This behavior     is why slice is often described as creating a shallow copy.
+  
   ---
 
 - **splice**: Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
@@ -113,6 +114,7 @@ console.log(fruits.includes("orange")); // Output: false
   fruits.splice(1);  // ['Apple']
   ```
   `splice` first performs deletion, that is, it first deletes `deleteCount` number of items from index `start` inclusive. After that, the method inserts the items from `start` index onwards.
+  
   ---
 
 - **sort**: The `sort()` method sorts the elements of an array in place and returns the sorted array. By default, the `sort()` method sorts elements as strings in ascending order. When sorting numbers, this can        lead to unexpected results because the elements are converted to strings and sorted based on their Unicode values.
