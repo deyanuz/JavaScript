@@ -5,33 +5,57 @@ This section covers **JavaScript Arrays**, explaining how to create, manipulate,
 ## Table of Contents
 
 1. [Arrays](#arrays)
-    - 1.1 [Creating Arrays](#creating-arrays)
-    - 1.2 [Accessing and Modifying Elements](#accessing-and-modifying-elements)
-    - 1.3 [Basic Array Methods](#basic-array-methods)
-    - 1.4 [Advanced Array Methods](#advanced-array-methods)
-2. [Strings](#strings)
+    - 1.1 [Constructor](#constructor)
+    - 1.2 [Creating Arrays](#creating-arrays)
+    - 1.3 [Accessing and Modifying Elements](#accessing-and-modifying-elements)
+    - 1.4 [Basic Array Methods](#basic-array-methods)
+    - 1.5 [Advanced Array Methods](#advanced-array-methods)
+3. [Strings](#strings)
     - 2.1 [Creating Strings](#creating-strings)
     - 2.2 [Basic String Operations](#basic-string-operations)
     - 2.3 [String Methods](#string-methods)
     - 2.4 [Advanced String Manipulation](#advanced-string-manipulation)
     - 2.5 [String Object vs String Primitive](#string-object-vs-string-primitive)
-3. [Date Object](#date-object)
+4. [Date Object](#date-object)
    - 3.1 [Creating a Date](#creating-a-date)
    - 3.2 [Getting Date Information](#getting-date-information)
    - 3.3 [Setting Date Information](#setting-date-information)
-4. [Math Object](#math-object)
+5. [Math Object](#math-object)
    - 4.1 [Common Math Methods](#common-math-methods)
    - 4.2 [Mathematical Constants](#mathematical-constants)
    - 4.3 [Other Math Methods](#other-math-methods)
    - 4.4 [Logarithmic Functions](#logarithmic-functions)
    - 4.5 [Trigonometric Functions](#trigonometric-functions)
-5. [Resources](#resources)
+6. [Resources](#resources)
 
 ---
 
 ## Arrays
 
 JavaScript arrays are used to store multiple values in a single variable, allowing us to manage ordered lists of data. Arrays can contain any data type, including numbers, strings, objects, or even other arrays.
+
+## Constructor
+
+The Array constructor in JavaScript is used to create a new array. It can be called in different ways:
+
+```javascript
+let arr1 = new Array(3); // [ , , ] (array with 3 empty slots)
+let arr2 = new Array(1, 2, 3); // [1, 2, 3]
+```
+
+### Using `Array` Constructor for Iteration
+
+- The `Array` constructor can be used creatively to run a block of code a specified number of times without using a traditional loop.
+
+  ```javascript
+  Array(3).fill().map(e => {
+      console.log("hi");
+  });
+  // Output : hi
+              hi
+              hi
+  ```
+  Array(3) creates an array with 3 empty slots. `fill()` fills all slots with `undefined`, making it easier to iterate. `map()` iterates over the array. The value of `e` is `undefined` for each iteration. This     is being used to execute the code inside map 3 times, printing "hi" each time. This approach serves as an alternative to a standard for loop.
 
 ## Creating Arrays
 
