@@ -140,8 +140,14 @@ console.log(fruits.includes("orange")); // Output: false
   console.log(numbers); // Output: [30, 10, 2, 1]
   ```
   
-- **reverse**
+- **reverse**:The reverse() method reverses the elements of an array in place and returns the modified array. It changes the order of the elements so that the first becomes the last, and the last becomes the         first.
 
+    ```javascript
+    let numbers = [1, 2, 3, 4, 5];
+    numbers.reverse();
+    console.log(numbers); // Output: [5, 4, 3, 2, 1]
+    ```
+    
 ### Iterating Over Arrays
 
 - **forEach**: Executes a function for each element.
