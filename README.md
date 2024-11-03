@@ -335,8 +335,7 @@ The `Date` object is used for working with dates and times. It provides methods 
   const specificDate = new Date(2024, 0, 1); // January 1, 2024 (month is 0-indexed)
   const fromString = new Date("2024-11-03T12:00:00"); // Date from string
   ```
-
-- **Explanation**: The `Date` object can represent the current time or specific dates. The month parameter is zero-based, so January is `0`.
+  The `Date` object can represent the current time or specific dates. The month parameter is zero-based, so January is `0`.
 
 ### Getting Date Information
 
@@ -348,8 +347,7 @@ The `Date` object is used for working with dates and times. It provides methods 
   console.log(date.getMonth()); // Output: 10 (November)
   console.log(date.getDate()); // Output: 3
   ```
-
-- **Explanation**: `getFullYear` returns the year, `getMonth` returns the zero-based month, and `getDate` returns the day of the month.
+  `getFullYear` returns the year, `getMonth` returns the zero-based month, and `getDate` returns the day of the month.
 
 ### Setting Date Information
 
@@ -362,8 +360,7 @@ The `Date` object is used for working with dates and times. It provides methods 
   date.setDate(15);
   console.log(date); // Updated date: June 15, 2025
   ```
-
-- **Explanation**: Use `setFullYear`, `setMonth`, and `setDate` to modify date values. These methods change the `Date` object in place.
+  Use `setFullYear`, `setMonth`, and `setDate` to modify date values. These methods change the `Date` object in place.
 
 
 <br>
@@ -386,8 +383,7 @@ The `Math` object provides mathematical constants and functions. It has no const
   console.log(Math.ceil(4.2)); // Output: 5
   console.log(Math.floor(4.8)); // Output: 4
   ```
-
-`Math.round` rounds to the nearest integer, `Math.ceil` rounds up, and `Math.floor` rounds down.
+  `Math.round` rounds to the nearest integer, `Math.ceil` rounds up, and `Math.floor` rounds down.
 
 ### Mathematical Constants
 
@@ -397,8 +393,7 @@ The `Math` object provides mathematical constants and functions. It has no const
   console.log(Math.PI); // Output: 3.141592653589793
   console.log(Math.E); // Output: 2.718281828459045
   ```
-
- Use `Math.PI` for calculations involving circles and `Math.E` for exponential calculations.
+  Use `Math.PI` for calculations involving circles and `Math.E` for exponential calculations.
 
 ### Other Math Methods
 
@@ -410,8 +405,7 @@ The `Math` object provides mathematical constants and functions. It has no const
   console.log(Math.min(1, 3, 2)); // Output: 1
   console.log(Math.random()); // Output: Random number (e.g., 0.235)
   ```
-
- `Math.max` and `Math.min` are useful for comparing values. `Math.random` is handy for generating random numbers in various scenarios.
+  `Math.max` and `Math.min` are useful for comparing values. `Math.random` is handy for generating random numbers in various scenarios.
 
 ---
 
