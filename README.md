@@ -163,30 +163,39 @@ Each `element` in the array is passed within the callback function provided to t
 
 ### Transforming Arrays
 
-- **map**: Returns a new array by applying a function to each element.
+- **map**: The `map()` method creates a **new array** by applying a given function to each element of the original array. It does **not modify** the original array and is useful for transforming data, like converting numbers or extracting specific object properties.
 
 ```javascript
 const numbers = [1, 2, 3];
 const squares = numbers.map(num => num * num); // [1, 4, 9]
+// Original array remains unchanged: [1, 2, 3]
 ```
+
+---
 
 ### Filtering Arrays
 
-- **filter**: Creates a new array with elements that pass a specific test.
+- **filter**: The `filter()` method returns a **new array** containing only the elements that pass a specified test implemented by a callback function. This method is ideal for removing unwanted elements or creating subsets based on conditions.
 
 ```javascript
 const numbers = [1, 2, 3, 4];
 const evens = numbers.filter(num => num % 2 === 0); // [2, 4]
+// Original array remains unchanged: [1, 2, 3, 4]
 ```
+
+---
 
 ### Reducing Arrays
 
-- **reduce**: Reduces the array to a single value based on a function.
+- **reduce**: The `reduce()` method applies a function to **accumulate** array elements into a single value. It takes a callback function and an optional initial value. The callback function receives an accumulator (accumulated result) and the current value from the array.
 
 ```javascript
 const numbers = [1, 2, 3, 4];
 const sum = numbers.reduce((total, num) => total + num, 0); // 10
-```
+// The initial value (0) ensures that the accumulation starts from 0.
+``` 
+
+
 <br>
 
 ---
