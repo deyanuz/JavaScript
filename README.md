@@ -403,9 +403,13 @@ The `Math` object provides mathematical constants and functions. It has no const
   ```javascript
   console.log(Math.max(1, 3, 2)); // Output: 3
   console.log(Math.min(1, 3, 2)); // Output: 1
+
+  let numbers = [10, 2, 30, 1];
+  console.log(Math.max(...numbers));  // Output: 30
+  
   console.log(Math.random()); // Output: Random number (e.g., 0.235)
   ```
-  `Math.max` and `Math.min` are useful for comparing values. `Math.random` is handy for generating random numbers in various scenarios.
+  In the third code snippet, the `...` is used to spread its elements as individual arguments.
 
 ---
 
