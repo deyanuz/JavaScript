@@ -365,7 +365,13 @@ The `Date` object is used for working with dates and times. It provides methods 
 
 - **Explanation**: Use `setFullYear`, `setMonth`, and `setDate` to modify date values. These methods change the `Date` object in place.
 
+
+<br>
+
 ---
+<br>
+
+
 
 ## Math Object
 
@@ -381,7 +387,7 @@ The `Math` object provides mathematical constants and functions. It has no const
   console.log(Math.floor(4.8)); // Output: 4
   ```
 
-- **Explanation**: `Math.round` rounds to the nearest integer, `Math.ceil` rounds up, and `Math.floor` rounds down.
+`Math.round` rounds to the nearest integer, `Math.ceil` rounds up, and `Math.floor` rounds down.
 
 ### Mathematical Constants
 
@@ -392,7 +398,7 @@ The `Math` object provides mathematical constants and functions. It has no const
   console.log(Math.E); // Output: 2.718281828459045
   ```
 
-- **Explanation**: Use `Math.PI` for calculations involving circles and `Math.E` for exponential calculations.
+ Use `Math.PI` for calculations involving circles and `Math.E` for exponential calculations.
 
 ### Other Math Methods
 
@@ -405,7 +411,7 @@ The `Math` object provides mathematical constants and functions. It has no const
   console.log(Math.random()); // Output: Random number (e.g., 0.235)
   ```
 
-- **Explanation**: `Math.max` and `Math.min` are useful for comparing values. `Math.random` is handy for generating random numbers in various scenarios.
+ `Math.max` and `Math.min` are useful for comparing values. `Math.random` is handy for generating random numbers in various scenarios.
 
 ---
 
@@ -415,6 +421,7 @@ The `Math` object provides mathematical constants and functions. It has no const
 - [JavaScript Array Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [JavaScript Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Instance_methods)
 - [JavaScript String Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+- [JavaScript Date Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 - [JavaScript Math Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 ---
