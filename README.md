@@ -318,11 +318,105 @@ console.log(typeof objectString); // Output: object
 `typeof primitive` returns "string" because it's a basic data type. `objectString` is an object with additional features, but it's less commonly used.
 
 
+## JavaScript Date and Math Objects
+
+JavaScript provides powerful built-in objects for handling dates and performing mathematical operations: the `Date` object and the `Math` object.
+
+---
+
+## Date Object
+
+The `Date` object is used for working with dates and times. It provides methods to create, manipulate, and format dates.
+
+### Creating a Date
+
+- **Syntax**: You can create a `Date` object using different constructors.
+  
+  ```javascript
+  const now = new Date(); // Current date and time
+  const specificDate = new Date(2024, 0, 1); // January 1, 2024 (month is 0-indexed)
+  const fromString = new Date("2024-11-03T12:00:00"); // Date from string
+  ```
+
+- **Explanation**: The `Date` object can represent the current time or specific dates. The month parameter is zero-based, so January is `0`.
+
+### Getting Date Information
+
+- **getFullYear / getMonth / getDate**: Methods to get specific parts of a date.
+  
+  ```javascript
+  const date = new Date(2024, 10, 3); // November 3, 2024
+  console.log(date.getFullYear()); // Output: 2024
+  console.log(date.getMonth()); // Output: 10 (November)
+  console.log(date.getDate()); // Output: 3
+  ```
+
+- **Explanation**: `getFullYear` returns the year, `getMonth` returns the zero-based month, and `getDate` returns the day of the month.
+
+### Setting Date Information
+
+- **setFullYear / setMonth / setDate**: Methods to set parts of a date.
+
+  ```javascript
+  const date = new Date();
+  date.setFullYear(2025);
+  date.setMonth(5); // June (0-indexed)
+  date.setDate(15);
+  console.log(date); // Updated date: June 15, 2025
+  ```
+
+- **Explanation**: Use `setFullYear`, `setMonth`, and `setDate` to modify date values. These methods change the `Date` object in place.
+
+---
+
+## Math Object
+
+The `Math` object provides mathematical constants and functions. It has no constructor and is used directly.
+
+### Common Math Methods
+
+- **Math.round / Math.ceil / Math.floor**: Rounds a number to the nearest integer.
+  
+  ```javascript
+  console.log(Math.round(4.6)); // Output: 5
+  console.log(Math.ceil(4.2)); // Output: 5
+  console.log(Math.floor(4.8)); // Output: 4
+  ```
+
+- **Explanation**: `Math.round` rounds to the nearest integer, `Math.ceil` rounds up, and `Math.floor` rounds down.
+
+### Mathematical Constants
+
+- **Math.PI / Math.E**: Constants representing π and Euler's number.
+  
+  ```javascript
+  console.log(Math.PI); // Output: 3.141592653589793
+  console.log(Math.E); // Output: 2.718281828459045
+  ```
+
+- **Explanation**: Use `Math.PI` for calculations involving circles and `Math.E` for exponential calculations.
+
+### Other Math Methods
+
+- **Math.max / Math.min**: Returns the largest or smallest number from a set.
+- **Math.random**: Generates a random number between 0 (inclusive) and 1 (exclusive).
+
+  ```javascript
+  console.log(Math.max(1, 3, 2)); // Output: 3
+  console.log(Math.min(1, 3, 2)); // Output: 1
+  console.log(Math.random()); // Output: Random number (e.g., 0.235)
+  ```
+
+- **Explanation**: `Math.max` and `Math.min` are useful for comparing values. `Math.random` is handy for generating random numbers in various scenarios.
+
+---
+
 
 ## Resources
 
 - [JavaScript Array Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [JavaScript Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Instance_methods)
 - [JavaScript String Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+- [JavaScript Math Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
 
 ---
