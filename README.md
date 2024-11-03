@@ -413,6 +413,42 @@ The `Math` object provides mathematical constants and functions. It has no const
 
 ---
 
+### Logarithmic Functions
+
+- **Math.log / Math.log10 / Math.log2**: Compute the natural logarithm, base-10 logarithm, and base-2 logarithm of a number.
+
+  ```javascript
+  console.log(Math.log(1)); // Output: 0 (natural logarithm of 1)
+  console.log(Math.log10(100)); // Output: 2 (log base 10 of 100)
+  console.log(Math.log2(8)); // Output: 3 (log base 2 of 8)
+  ```
+  
+  ---
+
+### Trigonometric Functions
+
+- **Math.sin / Math.cos / Math.tan**: Compute the sine, cosine, and tangent of an angle (in radians).
+
+  ```javascript
+  console.log(Math.sin(Math.PI / 2)); // Output: 1 (sine of 90 degrees)
+  console.log(Math.cos(0)); // Output: 1 (cosine of 0 degrees)
+  console.log(Math.tan(Math.PI / 4)); // Output: 1 (tangent of 45 degrees)
+  ```
+  
+  ---
+
+  ### Hyperbolic Functions
+
+- **Math.sinh / Math.cosh / Math.tanh**: Compute the hyperbolic sine, cosine, and tangent of a number.
+
+  ```javascript
+  console.log(Math.sinh(1)); // Output: 1.1752011936438014
+  console.log(Math.cosh(0)); // Output: 1
+  console.log(Math.tanh(1)); // Output: 0.7615941559557649
+  ```
+  
+  ---
+
 
 ## Resources
 
