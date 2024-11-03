@@ -78,7 +78,7 @@ fruits.unshift("apple"); // ["apple", "banana"]
 ### Searching for Elements
 
 - **indexOf**: Returns the index of a specified element.
-- **includes**: Checks if an element exists.
+- **includes**: Checks if an element exists. Returns `true` if the element exists in the array and `false` if it does not exist.
 
 ```javascript
 const fruits = ["apple", "banana", "cherry"];
