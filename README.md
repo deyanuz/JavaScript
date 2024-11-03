@@ -113,7 +113,7 @@ console.log(fruits.includes("orange")); // Output: false
   ```
   `splice` first performs deletion, that is, it first deletes `deleteCount` number of items from index `start` inclusive. After that, the method inserts the items from `start` index onwards.
 
-- **sort**: The sort() method sorts the elements of an array in place and returns the sorted array. By default, the sort() method sorts elements as strings in ascending order. When sorting numbers, this can lead   to unexpected results because the elements are converted to strings and sorted based on their Unicode values.
+- **sort**: The `sort()` method sorts the elements of an array in place and returns the sorted array. By default, the `sort()` method sorts elements as strings in ascending order. When sorting numbers, this can        lead to unexpected results because the elements are converted to strings and sorted based on their Unicode values.
 
   ```javascript
   let fruits = ["banana", "apple", "cherry"];
@@ -128,6 +128,16 @@ console.log(fruits.includes("orange")); // Output: false
   let numbersIncorrect = [10, 2, 30, 1];
   numbersIncorrect.sort();
   console.log(numbersIncorrect); // Output: [1, 10, 2, 30] (incorrect)
+  ```
+  To sort numbers correctly, you can pass a `compareFunction`
+
+  ```javascript
+  let numbers = [10, 2, 30, 1];
+  numbers.sort((a, b) => a - b); // Ascending order
+  console.log(numbers); // Output: [1, 2, 10, 30]
+
+  numbers.sort((a, b) => b - a); // Descending order
+  console.log(numbers); // Output: [30, 10, 2, 1]
   ```
   
 - **reverse**
