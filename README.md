@@ -25,7 +25,17 @@ This section covers **JavaScript Arrays**, explaining how to create, manipulate,
     - 2.4 [Advanced String Manipulation](#advanced-string-manipulation)
         - 2.4.1 [Template Literals](#template-literals)
     - 2.5 [String Object vs String Primitive](#string-object-vs-string-primitive)
-3. [Resources](#resources)
+3. [Date Object](#date-object)
+   - 3.1 [Creating a Date](#creating-a-date)
+   - 3.2 [Getting Date Information](#getting-date-information)
+   - 3.3 [Setting Date Information](#setting-date-information)
+4. [Math Object](#math-object)
+   - 4.1 [Common Math Methods](#common-math-methods)
+   - 4.2 [Mathematical Constants](#mathematical-constants)
+   - 4.3 [Other Math Methods](#other-math-methods)
+   - 4.4 [Logarithmic Functions](#logarithmic-functions)
+   - 4.5 [Trigonometric Functions](#trigonometric-functions)
+5. [Resources](#resources)
 
 ---
 
