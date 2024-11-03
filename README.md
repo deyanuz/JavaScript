@@ -169,7 +169,7 @@ console.log(fruits.includes("orange")); // Output: false
   ```
   ---
   
-- **reverse**:The `reverse()` method reverses the elements of an array in place and returns the modified array. It changes the order of the elements so that the first becomes the last, and the last becomes the         first.
+- **reverse**: The `reverse()` method reverses the elements of an array in place and returns the modified array. It changes the order of the elements so that the first becomes the last, and the last becomes the         first.
 
     ```javascript
     let numbers = [1, 2, 3, 4, 5];
@@ -178,7 +178,7 @@ console.log(fruits.includes("orange")); // Output: false
     ```
     ---
 
-- **fill**:The `fill()` method of changes all elements within a range of indices in an array to a static value. It returns the modified array.
+- **fill**: The `fill()` method of changes all elements within a range of indices in an array to a static value. It returns the modified array.
 
   ```javascript
      const array1 = [1, 2, 3, 4];
