@@ -1,7 +1,7 @@
 
 # Regular Expressions in JavaScript 🔍
 
-JavaScript supports **Regular Expressions** (Regex) as a powerful tool for searching, extracting, and manipulating text. Regex allows you to describe text patterns, enabling tasks such as validation, replacement, and parsing in a streamlined way.
+Regular expressions (RegEx) are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects. Regex enables tasks such as validation, replacement, and parsing in a streamlined way. 
 
 ## Basics of Regex Syntax
 
