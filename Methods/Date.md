@@ -43,7 +43,7 @@ Use `setFullYear`, `setMonth`, and `setDate` to modify date values. These method
 
 ## Date Methods: Local & UTC
 
-| Component           | Local            |                  | UTC              |                  |
+| Component           | Local                               | UTC                                 |
 |---------------------|-------------------------------------|-------------------------------------|
 |                     | Get              | Set              | Get              | Set              |
 | Year                | getFullYear()    | setFullYear()    | getUTCFullYear() | setUTCFullYear() |
