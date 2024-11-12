@@ -194,7 +194,6 @@ numbers.forEach((element) => console.log(element * 2)); // 2, 4, 6
 
 Each `element` in the array is passed within the callback function provided to the `forEach` method. The function performs an operation based on the function definition.
 
-<br>
 
 ## Advanced Array Methods
 
