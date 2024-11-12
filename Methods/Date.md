@@ -54,3 +54,8 @@ Use `setFullYear`, `setMonth`, and `setDate` to modify date values. These method
 | Milliseconds        | getMilliseconds()| setMilliseconds()| getUTCMilliseconds()| setUTCMilliseconds() |
 | Day (of week)       | getDay()         | N/A              | getUTCDay()      | N/A              |
 
+## Resources
+
+- [JavaScript Date Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
+
+---
