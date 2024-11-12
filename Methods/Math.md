@@ -29,7 +29,7 @@ Use `Math.PI` for calculations involving circles and `Math.E` for exponential ca
 
 - **Math.max / Math.min :** Returns the largest or smallest number from a set.
 - **Math.random :** Generates a random number between 0 (inclusive) and 1 (exclusive).
-- **Math.abs :** Returns the absolute value of a number..
+- **Math.abs :** Returns the absolute value of a number.
 
 ```javascript
 console.log(Math.max(1, 3, 2)); // Output: 3
