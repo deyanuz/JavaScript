@@ -7,7 +7,7 @@ JavaScript `String` objects are used to store and manipulate text. They can cont
 Strings can be created using single quotes (`'...'`), double quotes (`"..."`), or backticks (`\`...\`` for template literals).
 
 ```javascript
-const singleQuoteString = "Hello";
+const singleQuoteString = 'Hello';
 const doubleQuoteString = "World";
 const templateLiteral = `Hello, ${singleQuoteString} ${doubleQuoteString}!`; // "Hello, Hello World!"
 ```
