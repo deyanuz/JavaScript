@@ -1,4 +1,4 @@
-## Arrays in JavaScript
+## Arrays in JavaScript 🧩
 
 In JavaScript, arrays aren't primitives but are instead `Array` objects. They have certain distinctive properties such as:
 
@@ -241,3 +241,9 @@ const sum = numbers.reduce((total, num) => total + num, 0); // 10
 
 - [JavaScript Array Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [JavaScript Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Instance_methods)
+
+<br>
+
+---
+
+---
