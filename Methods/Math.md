@@ -1,4 +1,4 @@
-## Math Object
+## Math in JavaScript 🔢
 
 The `Math` object provides mathematical constants and functions. It has no constructor and is used directly. It works with the `Number` type. It doesn't work with `BigInt`.
 
