@@ -103,7 +103,6 @@ In the example snippet, indices 1 through 3 are passed to the slice method. Howe
 
 ---
 
-<br>
 
 - **<u>splice</u> :** Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 
@@ -124,7 +123,6 @@ fruits.splice(1); // ['Apple']
 
 ---
 
-<br>
 
 - **<u>sort</u> :** The `sort()` method sorts the elements of an array in place and returns the sorted array. By default, the `sort()` method sorts elements as strings in ascending order. When sorting numbers, this can lead to unexpected results because the elements are converted to strings and sorted based on their Unicode values.
 
@@ -156,7 +154,6 @@ console.log(numbers); // Output: [30, 10, 2, 1]
 
 ---
 
-<br>
 
 - **<u>reverse</u> :** The `reverse()` method reverses the elements of an array in place and returns the modified array. It changes the order of the elements so that the first becomes the last, and the last becomes the first.
 
@@ -168,7 +165,6 @@ console.log(numbers); // Output: [5, 4, 3, 2, 1]
 
 ---
 
-<br>
 
 - **<u>fill</u> :** The `fill()` method of changes all elements within a range of indices in an array to a static value. It returns the modified array.
 
@@ -185,7 +181,6 @@ console.log(array1.fill(6)); // Output: [6, 6, 6, 6]
 
 ---
 
-<br>
 
 ## Iterating Over Arrays
 
@@ -243,7 +238,5 @@ const sum = numbers.reduce((total, num) => total + num, 0); // 10
 - [JavaScript Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Instance_methods)
 
 <br>
-
----
 
 ---
