@@ -8,5 +8,6 @@ For more insights, take a look at these articles:
 - [Date](./Methods/Date.md)
 - [Math](./Methods/Math.md)
 - [String](./Methods/String.md)
+- [RegEx](./Methods/RegEx.md)
 
 ---
