@@ -41,7 +41,6 @@ const regex = /hello/gi; // Case-insensitive and global search
 | `\d`    | Digit (0-9)                                    | `/\d+/` matches `123`     |
 | `\w`    | Word character (alphanumeric + underscore)     | `/\w+/` matches `hello`   |
 | `\s`    | Whitespace                                     | `/\s+/` matches spaces    |
-| ``    | Word boundary                                  | `/word/` matches `word` |
 | `^`     | Start of input                                 | `/^hello/` matches `hello` at the start |
 | `$`     | End of input                                   | `/world$/` matches `world` at the end   |
 
