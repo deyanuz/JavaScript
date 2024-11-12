@@ -7,7 +7,7 @@ JavaScript `String` objects are used to store and manipulate text. They can cont
 Strings can be created using single quotes (`'...'`), double quotes (`"..."`), or backticks (`\`...\`` for template literals).
 
 ```javascript
-const singleQuoteString = 'Hello';
+const singleQuoteString = "Hello";
 const doubleQuoteString = "World";
 const templateLiteral = `Hello, ${singleQuoteString} ${doubleQuoteString}!`; // "Hello, Hello World!"
 ```
@@ -16,7 +16,7 @@ Template literals (backticks) allow for string interpolation using the `${}` syn
 
 ## Basic String Operations
 
-- **<u>Accessing Characters</u> :** Use bracket notation or the `.charAt()` method to access characters in a string.
+- **Accessing Characters :** Use bracket notation or the `.charAt()` method to access characters in a string.
 
 ```javascript
 const text = "Hello";
@@ -26,11 +26,7 @@ console.log(text.charAt(1)); // Output: e
 
 `text[0]` and `text.charAt(1)` retrieve specific characters from the string. Bracket notation is a modern, convenient way to access characters.
 
----
-
-<br>
-
-- **<u>Length Property</u> :** Use the `.length` property to get the number of characters in a string.
+- **Length Property :** Use the `.length` property to get the number of characters in a string.
 
 ```javascript
 console.log(text.length); // Output: 5
@@ -44,9 +40,9 @@ JavaScript provides a variety of methods for working with strings:
 
 ### _Finding and Extracting Substrings_
 
-- **<u>indexOf</u> :** Returns the index of the first occurrence of a substring.
-- **<u>slice</u> :** Extracts a section of the string from start to end (end not included).
-- **<u>substring</u> :** Extracts characters between two indices. It's worth noting that `substring` does not accept negative indices, unlike slice.
+- **indexOf :** Returns the index of the first occurrence of a substring.
+- **slice :** Extracts a section of the string from start to end (end not included).
+- **substring :** Extracts characters between two indices. It's worth noting that `substring` does not accept negative indices, unlike slice.
 
 ```javascript
 const text = "Hello, JavaScript!";
@@ -59,13 +55,11 @@ console.log(text.substring(7, 17)); // Output: JavaScript
 
 `indexOf` is used to find the position of a substring. `slice` and `substring` extract portions of the string; `slice` can take negative indices.
 
----
-
 ### _Modifying Strings_
 
-- **<u>toUpperCase / toLowerCase</u> :** Converts the string to uppercase or lowercase.
-- **<u>replace</u> :** Replaces part of a string with another string.
-- **<u>trim</u> :** Removes whitespace from both ends of the string.
+- **toUpperCase / toLowerCase :** Converts the string to uppercase or lowercase.
+- **replace :** Replaces part of a string with another string.
+- **trim :** Removes whitespace from both ends of the string.
 
 ```javascript
 const greeting = " Hello ";
@@ -91,9 +85,9 @@ Template literals simplify embedding variables into strings and support multilin
 
 ## String Primitives vs String Objects
 
-- **<u>String Primitive</u> :** Strings created using quotes (single or double) are primitives and have no methods until accessed.
+- **String Primitive :** Strings created using quotes (single or double) are primitives and have no methods until accessed.
 
-- **<u>String Object</u> :** Created using the `String` constructor, it’s an object with built-in properties and methods.
+- **String Object :** Created using the `String` constructor, it’s an object with built-in properties and methods.
 
 ```javascript
 const primitive = "Hello"; // String primitive
@@ -108,9 +102,5 @@ console.log(typeof objectString); // Output: object
 ## Resources
 
 - [JavaScript String Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
-
-<br>
-
----
 
 ---
