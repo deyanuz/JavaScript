@@ -101,8 +101,6 @@ console.log(citrus); // ['Banana', 'Cherry']
 
 In the example snippet, indices 1 through 3 are passed to the slice method. However, the returned array contains only the elements at indices 1 and 2; it does not include the element at index end (3 in this case). Additionally, while the elements of the returned array reference the same objects in memory as the original array, this is only relevant for arrays containing objects. If the original array contains primitive values (like numbers or strings), the values themselves are copied. Therefore, modifying the elements in the returned array will not affect the original array if they are primitives. This behavior is why slice is often described as creating a shallow copy.
 
----
-
 
 - **<u>splice</u> :** Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 
@@ -120,8 +118,6 @@ fruits.splice(1); // ['Apple']
 ```
 
 `splice` first performs deletion, that is, it first deletes `deleteCount`number of items from index `start` inclusive. After that, the method inserts the items from `start` index onwards.
-
----
 
 
 - **<u>sort</u> :** The `sort()` method sorts the elements of an array in place and returns the sorted array. By default, the `sort()` method sorts elements as strings in ascending order. When sorting numbers, this can lead to unexpected results because the elements are converted to strings and sorted based on their Unicode values.
@@ -152,8 +148,6 @@ numbers.sort((a, b) => b - a); // Descending order
 console.log(numbers); // Output: [30, 10, 2, 1]
 ```
 
----
-
 
 - **<u>reverse</u> :** The `reverse()` method reverses the elements of an array in place and returns the modified array. It changes the order of the elements so that the first becomes the last, and the last becomes the first.
 
@@ -162,8 +156,6 @@ let numbers = [1, 2, 3, 4, 5];
 numbers.reverse();
 console.log(numbers); // Output: [5, 4, 3, 2, 1]
 ```
-
----
 
 
 - **<u>fill</u> :** The `fill()` method of changes all elements within a range of indices in an array to a static value. It returns the modified array.
@@ -178,8 +170,6 @@ console.log(array1.fill(0, 2, 4)); // Output: [1, 2, 0, 0]
 console.log(array1.fill(5, 1)); // Output: [1, 5, 5, 5]
 console.log(array1.fill(6)); // Output: [6, 6, 6, 6]
 ```
-
----
 
 
 ## Iterating Over Arrays
@@ -207,7 +197,6 @@ const squares = numbers.map((num) => num * num); // [1, 4, 9]
 // Original array remains unchanged: [1, 2, 3]
 ```
 
----
 
 ### Filtering Arrays
 
@@ -219,7 +208,6 @@ const evens = numbers.filter((num) => num % 2 === 0); // [2, 4]
 // Original array remains unchanged: [1, 2, 3, 4]
 ```
 
----
 
 ### Reducing Arrays
 
