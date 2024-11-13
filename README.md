@@ -5,9 +5,9 @@ This section covers **JavaScript Arrays**, explaining how to create, manipulate,
 For more insights, take a look at these articles:
 
 - [Arrays](./Methods/Arrays.md)
+- [String](./Methods/String.md)
 - [Date](./Methods/Date.md)
 - [Math](./Methods/Math.md)
-- [String](./Methods/String.md)
 - [RegEx](./Methods/RegEx.md)
 
 ---
